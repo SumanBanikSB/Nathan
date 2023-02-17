@@ -10,7 +10,7 @@ mongoose.connect(
     console.log('MONGoDB connected!!');
   }
 );
-
+ 
 var schema = mongoose.Schema({
   u: String,
   p: String,
